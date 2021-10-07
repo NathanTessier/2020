@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 sept. 2020, 13:17:46
+    Author     : ntessier
+*/
+
+.cadre1{
+    background-color:white;
+    height: 30%;
+    left: 0px;
+    position: absolute;
+    top: 0%;
+    width: 1500px;
+}
+    
+
+.cadre2{
+    background-color: #eef09a;
+    height: 29%;
+    left: 200px;
+    position: absolute;
+    top: 3px;
+    width: 800px;
+    text-align: center;
+    
+}
+.cadre3{
+    height: 68%;
+    left: 0px;
+    position: absolute;
+    top: 31%;
+    width:50%;
+    background-color:white;
+    text-align: left;
+}
+.textNormal{
+    text-align: justify;
+}
