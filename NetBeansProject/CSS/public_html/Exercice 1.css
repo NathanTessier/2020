@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 sept. 2020, 13:17:46
+    Author     : ntessier
+*/
+
+td{
+    border: 2px solid blue;
+
+}
+table{
+    width: 100%;
+}
+#cadre{
+    background-clip: content-box;
+    background-color: #ffff99;
+    width: 30%;
+    height: 100%;
+    padding-right: 20%;
+    padding-left: 20%;    
+}
+#photo{
+    position:absolute;
+    width: 70px;
+    margin-left: 50%;
+}
+#Nom2{
+    font-style: italic;
+    margin-left: 82px  ; 
+}
+
+#Prénom2{
+    font-style: italic;
+    margin-left: 63px;
+}
+#Adresse2{
+    font-style: italic;
+    margin-left:60px;
+}
+#Téléphone2{
+    font-style: italic;
+    margin-left: 45px;
+}
+#Nom{
+
+    margin-left:400px ; 
+}
+
+#Prénom{
+
+    margin-left: 400px;
+}
+#Adresse{
+
+    margin-left: 400px;
+}
+#Téléphone{
+
+    margin-left: 400px;
+}
+#titre2{
+    position: absolute;
+    top: 173px;
+    left: 70%;
+}
+.ColonneBas{
+    width: 50%;
+}
+#cadre{
+    
+}

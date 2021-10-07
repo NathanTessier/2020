@@ -1,0 +1,55 @@
+.module{
+    border: 4px solid blue;
+    border-style: outset;
+    width: 600px;
+    height: 215px;
+    background-image: url("images/cisco.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.titremodule{
+    background-color: lightsteelblue;
+    text-align: center;
+    width: 200px;
+    margin-left: 33%;
+}
+.liste{
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.module:hover{
+    border-color: red;
+}
+.module:hover .liste{
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+.ligne1{
+    margin-top: 0px;
+}
+.ligne2{
+    margin-top: 224px;
+}
+.ligne3{
+    margin-top: 448px;
+}
+.colonne1{
+    margin-left: 0px;
+}
+.colonne2{
+    margin-left: 609px;
+}
+.colonne3{
+    margin-left: 1218px; 
+}
+#module10{
+    margin-top: 672px;
+    margin-left: 200px;
+}
+#module11{
+    margin-top: 672px;
+    margin-left: 809px;
+}
