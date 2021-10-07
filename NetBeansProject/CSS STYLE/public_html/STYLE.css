@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 sept. 2020, 11:58:43
+    Author     : ntessier
+*/
+
+.cadreYellow{background-color: #fbf8c5 ;
+             text-align: center;
+             font-weight: bold;
+             color: blue;
+             border-style: ridge;
+             border-color: #fbc5ef;
+             width: 30%;
+             margin-left:auto;
+             margin-right: auto;}
+
+.cadreBlanc{background-color: white;
+             color: darkmagenta;
+             font-weight: bold;
+             border-style: groove;
+             border-color: blue;
+             text-align: center;
+             width: 20%;}
+
+.police1{background-color:white;
+             font-family:'Courier new';
+             font-weight: bold;
+             left: 5%;
+             position: relative;}
+
+.cadreMarron{background-color: #f7e7d1;
+             color: black;
+             font-weight: bold;
+             text-align: center;
+             width: 20%;
+             margin-left: 6%;
+             position: relative;}
+
+
+.police2{background-color:white;
+             font-family:'Century Schoolbook L';
+             margin-left: 12%;}
+
+
+.cadreHautGauche{background-color:#ff4900 ;
+                height: 50%;
+                left: 0px;
+                position: absolute;
+                top: 0px;
+                width: 50%;}
+
+.cadreHautDroit{background-color: #6feb18 ;
+                height: 50%;
+                right: 0px;
+                position: absolute;
+                top: 0px;
+                width: 50%;}
+
+.cadreBasGauche{background-color: #0098ff ;
+                height: 50%;
+                left: 0px;
+                position: absolute;
+                top: 387px;
+                width: 50%;}
+
+.cadreBasDroit{background-color: #fff000 ;
+                height: 50%;
+                right: 0px;
+                position: absolute;
+                top: 387px;
+                width: 50%;}
+
+.cadre1{background-color:#ff4900 ;
+                height: 70%;
+                left: 0px;
+                position: absolute;
+                top: 0%;
+                width: 20%;}
+
+.cadre2{background-color: #6feb18 ;
+                height: 70%;
+                left: 100px;
+                position: absolute;
+                top: 10%;
+                width: 20%;}
+
+.cadre3{background-color: #0098ff ;
+                height: 70%;
+                left: 200px;
+                position: absolute;
+                top: 20%;
+                width: 20%;}
+
+.cadre4{background-color: #fff000 ;
+                height: 70%;
+                left: 300px;
+                position: absolute;
+                top: 30%;
+                width: 20%;}
