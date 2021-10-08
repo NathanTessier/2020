@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 sept. 2020, 14:45:21
+    Author     : ntessier
+*/
+
+.titreOmbre{
+    border-radius: 5px;
+    text-align: center;
+    border:solid 1px #00ff09 ; 
+    color: white;
+    width: 200px;
+    margin-left: 550px;
+    margin-top: 400px;
+    
+            
+}
+
+.titreOmbre:hover{
+    box-shadow:0px 0px 50px 30px lightgreen ;
+}
+
+.degradeRadial{
+
+    text-align: left;
+    width:120px;
+    background:radial-gradient(200px,#1c4c18,white );
+    height: 100px;
+}
+
+.degradeLinear{
+
+    text-align: left;
+    width:120px;
+    background:linear-gradient(to left,blue,white );
+    height: 100px;
+}
+.boites{
+    width:200px;
+    height: 200px
+}
+
+@media screen and (min-width: 300px){
+    
+    .boite1{
+        position: absolute;
+        top: 0%;
+        left: 18%;
+        background-color: #297b23;
+    }
+    .boite2{
+        position: absolute;
+        top: 210px;
+        left: 18%;
+        background-color: #00ff09;
+    }
+    .boite3{
+        position: absolute;
+        top: 420px;
+        left: 18%;
+        background-color: fuchsia;
+    }
+}
+
+@media screen and (min-width: 600px){
+    
+    .boite1{
+        position: absolute;
+        top: 0%;
+        left: 18%;
+        background-color: #297b23;
+    }
+    .boite2{
+        position: absolute;
+        left: 55%;
+        top: 0%;
+        background-color: #00ff09;
+    }
+    .boite3{
+        position: absolute;
+        top: 210px;
+        left: 18%;
+        background-color: fuchsia;
+    }
+}    
+    @media screen and (min-width: 900px){
+    
+    .boite1{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        background-color: #297b23;
+    }
+    .boite2{
+        position: absolute;
+        left:250px;
+        top: 0%;
+        background-color: #00ff09;
+    }
+    .boite3{
+        position: absolute;
+        top: 0px;
+        left: 500px;
+        background-color: fuchsia;
+    }
+}
